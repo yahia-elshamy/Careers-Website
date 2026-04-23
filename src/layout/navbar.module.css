@@ -1,0 +1,62 @@
+.navContainer, .linksContainer, .linksWrapper ul, .btnWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer {
+    justify-content: space-around;
+    align-items: center;
+    margin: 16.5px 0;
+    padding: 0 80px;
+}
+
+.logoContainer {
+    cursor: pointer;
+}
+
+.linksWrapper ul {
+    gap: 28px;
+}
+
+.linksWrapper ul li {
+    list-style: none;
+    cursor: pointer;
+    color: var(--paragraph01);
+    font-family: var(--font-roboto);
+    font-weight: 400;
+}
+
+.btnWrapper {
+    margin-left: 63px;
+    gap: 25px;
+    align-items: center;
+}
+
+.registerBtn {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--secondery);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupBtn {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--secondery);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 97px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.linksWrapper ul li:hover {
+    color: var(--secondery);
+}
