@@ -1,5 +1,5 @@
 import Styles from './hero.module.css';
-import Card from '../assets/images/Card01.png';
+import Card from '../../assets/images/Card01.png';
 
 export default function Hero() {
     return(<>

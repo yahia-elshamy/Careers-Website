@@ -3,11 +3,23 @@
     flex-direction: row;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F2F9F6;
+    z-index: 1000;
+}
+
 .navContainer {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 16.5px 0;
-    padding: 0 80px;
+    margin: auto;
+    padding: 16px 0;
+    width: 70%;
 }
 
 .logoContainer {
@@ -20,7 +32,10 @@
 
 .linksWrapper ul li {
     list-style: none;
-    cursor: pointer;
+}
+
+.linksWrapper ul li a {
+    text-decoration: none;
     color: var(--paragraph01);
     font-family: var(--font-roboto);
     font-weight: 400;
@@ -57,6 +72,6 @@
     cursor: pointer;
 }
 
-.linksWrapper ul li:hover {
+.linksWrapper ul li a:hover {
     color: var(--secondery);
 }

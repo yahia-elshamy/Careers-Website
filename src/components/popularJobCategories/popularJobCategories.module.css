@@ -1,0 +1,90 @@
+.categoriesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding-top: 160px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+}
+
+.textContainer h2 {
+    font-family: var(--font-roboto);
+    font-weight: 800;
+    color: var(--textColor01);
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.textContainer p {
+    font-size: 14px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    text-align: center;
+    color: var(--paragraph02);
+    width: 39%;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 110px);
+    grid-gap: 50px;
+    margin: 30px 0 70px;
+}
+
+
+.textCard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 15px;
+    background-color: var(--fifth);
+    box-shadow: var(--dropShadow);
+    padding: 20px;
+}
+
+.textCard:active {
+    border: 0.93px solid var(--third);
+}
+
+.textCard div p:first-of-type {
+    font-size: 24px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    color: var(--textColor01);
+    margin-bottom: 0;
+}
+
+.textCard div p {
+    font-size: 14px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    color: var(--paragraph02);
+    /* margin-top: 0; */
+}
+
+.allCategoriesBtn {
+    width: 141px;
+    height: 44px;
+    margin: auto;
+    border: none;
+    border-radius: 9.32px;
+    background-color: var(--secondery);
+    padding: 11.65px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    margin-bottom: 79.76px;
+}

@@ -1,0 +1,79 @@
+footer {
+    width: 100%;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--border01);
+}
+
+.firstSection {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.wazzafny  {
+    font-size: 39.82px;
+    font-weight: 400;
+    color: var(--secondery);
+    font-family: var(--font-pacifico);
+    margin: 0;
+}
+
+.tableCon table th {
+    font-size: 24px;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    color: var(--textColor01);
+    padding-right: 97px;
+}
+
+.tableCon table td {
+    padding-top: 28px;
+    padding-right: 97px;
+    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    color: var(--textColor01); 
+}
+
+
+
+
+
+
+.secondSection {
+    display: flex;flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15%;
+    border-top: 2px solid var(--border01);
+}
+
+.copyright {
+    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    align-content: center;
+    color: var(--paragraph02);
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+.links ul li {
+    font-size: 16px;
+    align-content: center;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    color: var(--paragraph02);
+}
+

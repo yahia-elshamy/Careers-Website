@@ -1,11 +1,13 @@
-import Navbar from "./layout/Navbar"
-import Hero from "./pages/Hero"
+import Footer from "./layout/Footer/Footer"
+import Navbar from "./layout/Navbar/Navbar"
+import Home from "./pages/Home"
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Hero/>
+      <Home/>
+      <Footer/>
     </>
   )
 }
